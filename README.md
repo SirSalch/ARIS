@@ -1,3 +1,5 @@
+![image alt](https://github.com/SirSalch/ARIS/blob/main/Repository%20content/Logo.png?raw=true)
+
 **🛠 В разработке ARIS** (Argentix RISC-V Interface Standard) представляет собой легковесный стандартизированный фреймворк для взаимодействия с аппаратной периферией отечественных микроконтроллеров, таких как MIK32 Амур и Baikal-U1000 (в будущем). Фреймворк заменяет стандартные тяжеловесные SDK на современный C++ интерфейс, спроектированный по принципу Zero-Cost Abstractions (абстракции с нулевой стоимостью). Проект создается как базовый низкоуровневый слой для открытой экосистемы ARGENTIX.
 
 [ENG] *🛠 In development ARIS (Argentix RISC-V Interface Standard) is a lightweight, standardized framework for interacting with hardware peripherals of Russian microcontrollers  such as the MIK32 Amur and Baikal-U1000 (in the future). The framework replaces the standard heavyweight SDKs with a modern C++ interface designed on the principle of Zero-Cost Abstractions (zero-cost abstractions). The project is being created as a basic low-level layer for the ARGENTIX open ecosystem.*
