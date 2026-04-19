@@ -78,3 +78,6 @@ int main(void) {
 Вес прошивки   FLASH:148 байт,  ОЗУ:0 байт
 Program weight FLASH:148 bytes, RAM:0 bytes 
 ```
+
+## Лицензия *(License)*
+GNU General public license v3.0
