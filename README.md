@@ -1,6 +1,14 @@
-**🛠 В разработке ARIS** (Argentix RISC-V Interface Standard) представляет собой легковесный стандартизированный фреймворк для взаимодействия с аппаратной периферией отечественных микроконтроллеров, таких как MIK32 Амур и Baikal-U1000 (в будущем). Фреймворк заменяет стандартные тяжеловесные SDK на современный C++ интерфейс, спроектированный по принципу Zero-Cost Abstractions (абстракции с нулевой стоимостью). Проект создается как базовый низкоуровневый слой для открытой экосистемы ARGENTIX.
+![image alt](https://github.com/SirSalch/ARIS/blob/main/Repository%20content/Logo.png?raw=true)
 
-[ENG] *🛠 In development ARIS (Argentix RISC-V Interface Standard) is a lightweight, standardized framework for interacting with hardware peripherals of Russian microcontrollers  such as the MIK32 Amur and Baikal-U1000 (in the future). The framework replaces the standard heavyweight SDKs with a modern C++ interface designed on the principle of Zero-Cost Abstractions (zero-cost abstractions). The project is being created as a basic low-level layer for the ARGENTIX open ecosystem.*
+# ARIS
+**🛠 В разработке ARIS** (Argentix RISC-V Interface Standard) представляет собой легковесный стандартизированный фреймворк для взаимодействия с аппаратной периферией отечественных микроконтроллеров, таких как MIK32 Амур и Миландр НИЭЭТ (в будущем). Фреймворк заменяет стандартные тяжеловесные SDK на современный C++ интерфейс, спроектированный по принципу Zero-Cost Abstractions (абстракции с нулевой стоимостью). Проект создается как базовый низкоуровневый слой для открытой экосистемы ARGENTIX. (https://github.com/SirSalch/Argentix-Public-Version)
+
+«На этапе pre-Alpha проект выпускается под лицензией GPL. После выхода первой стабильной альфа-версии лицензия будет изменена на MIT, что снимет ограничения на использование кода в закрытых и коммерческих проектах» <br> <br>
+
+
+[ENG] *In development ARIS (Argentix RISC-V Interface Standard) is a lightweight, standardized framework for interacting with hardware peripherals of Russian microcontrollers  such as the MIK32 Amur and Milander NIET (in the future). The framework replaces the standard heavyweight SDKs with a modern C++ interface designed on the principle of Zero-Cost Abstractions. The project is being created as a basic low-level layer for the ARGENTIX open ecosystem. (https://github.com/SirSalch/Argentix-Public-Version)*
+
+*"At the pre-Alpha stage, the project is released under the GPL license. After the release of the first stable alpha version, the license will be changed to MIT, which will remove restrictions on the use of the code in closed and commercial projects."*
 
 ## Применение *(Usage)*
 ARIS не навязывает стиль программирования, предоставляя разработчику выбор между читаемостью и абсолютным ручным контролем.
