@@ -31,14 +31,14 @@ enum {
   // Режимы работы
   GPIO_INPUT  = 0,
   GPIO_OUTPUT = 1,
-
-  // Состояния пина
-  LOW  = 0,
-  HIGH = 1,
 };
 
 
 namespace Gpio {
+  inline void setClocking(const uint32_t clkMask, const bool state) {
+    (state ? APB->CLK_PERIPHERY_SET : APB->CLK_PERIPHERY_CLEAR) = clkMask;
+  }
+
   inline void setMode(GpioPort* port, const uint8_t pinNumber ,const uint8_t mode) {
     switch(mode) {
       case GPIO_OUTPUT: port->DIRECTION_OUT = (1 << pinNumber); break;
